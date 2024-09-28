@@ -16,7 +16,7 @@ function Homesectioncarusel({ data = [], sectionName = '' }) {
     0: { items: 1 },
     720: { items: 3 },
     1024: { items: itemsToShow },
-  };
+  }; 
 
   const slidePrev = () => {
     if (activeIndex > 0) {
@@ -25,7 +25,6 @@ function Homesectioncarusel({ data = [], sectionName = '' }) {
       carouselRef.current?.slideTo(newIndex);
     }
   };
-
   const slideNext = () => {
     if (activeIndex < totalItems - itemsToShow) {
       const newIndex = Math.min(activeIndex + 1, totalItems - itemsToShow);

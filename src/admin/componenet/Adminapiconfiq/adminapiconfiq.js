@@ -1,8 +1,11 @@
 import axios from 'axios';
 
+
+const baseURL = `http://localhost:5454/api/admin`;
+
 // Axios instance for other API requests
 export const adminapi = axios.create({
-  baseURL: "http://localhost:5454/api/admin",
+  baseURL: baseURL,
 });
 
 // Adding the Authorization header dynamically using interceptors
