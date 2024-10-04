@@ -2,6 +2,6 @@ import axios from 'axios';
 
 // Axios instance for authentication
 const axiosInstance = axios.create({
-  baseURL: `http://localhost:5454/auth`,
+  baseURL: `https://node-api-one-gold.vercel.app/auth`,
 });
 export default axiosInstance

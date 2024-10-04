@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const baseURL = `http://localhost:5454/api/admin`;
+const baseURL = `https://node-api-one-gold.vercel.app/api/admin`;
 
 // Axios instance for other API requests
 export const adminapi = axios.create({

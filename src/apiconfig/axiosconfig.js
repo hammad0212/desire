@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Axios instance for other API requests
 export const api = axios.create({
-  baseURL: "http://localhost:5454",
+  baseURL: "https://node-api-one-gold.vercel.app",
 });
 
 // Adding the Authorization header dynamically using interceptors

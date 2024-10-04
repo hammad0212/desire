@@ -25,7 +25,7 @@ export default function AddreesForm() {
 
     try {
       // Make the POST request to create the order
-      const response = await api.post('http://localhost:5454/api/orders/', address);
+      const response = await api.post('https://node-api-one-gold.vercel.app/api/orders/', address);
       const { data: responseData } = response;
 
       console.log('data from the response', responseData);
